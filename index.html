@@ -104,7 +104,7 @@
       <hr>
       <p class="ex1">
         <h3 id="The importance of Water Treatment">The importance of Water Treatment</h3>
-        <pre id = "Main1">
+        <pre id="Main1">
           What is water treatment?  Water treatment refers to the process of improving quality of water with the purpose of serving an end-use (SafetyCulture Content Team, 2024).
           Clean drinking water is a basic human right and access to it is critical for public health.
           Although being a basic human right the World Health Organization (WHO) and UNICEF states that
@@ -122,7 +122,7 @@
         <hr>
       <p class="ex1">
         <h3 id="The Water Treatment Process">The Water Treatment Process</h3>
-        <pre id = "Main2">
+        <pre id="Main2">
          There are many different stages within the water treatment process and each stage is designed to move specific types of contaminants.
          The 5 major stages are: Coagulation, Flocculation, Sedimentation, Filtration and Disinfection. (SafetyCulture Content Team, 2024). 
         1.Coagulation: A coagulant (usually aluminium sulfate) is quickly added to water and mixed. The coagulant (being positively charged) neutralises the negative
@@ -149,7 +149,7 @@
           <hr>
           <p class="ex1">
             <h3 id="Challenges in Water Treatment">Challenges in Water Treatment</h3>
-            <pre id = "Main 3">
+            <pre id="Main 3">
               Despite the technological advancements and our ever-growing knowledge in water treatment, many challenges remain in providing access to clean water globally.
               The predominant challenge being population growth. Demand for freshwater continues to increase due to the growing population,
               UNICEF states that half of the world’s population could be living in areas facing water scarcity by as early as 2025 (UNICEF, no date).
@@ -172,7 +172,7 @@
           <hr>
           <p class="ex1">
             <h3 id="Conclusion">Conclusion</h3>
-            <pre>
+            <pre id="Conc">
               Water treatment is crucial for public health, protecting the environment and ensuring access to clean water for all.
               Although significant technological advancements have been made, challenges still exist which prevent the access of clean water.
               Chemicals, industrial waste and personal care products are all pollutants and prevent water treatment.
@@ -286,8 +286,9 @@
     const AnalysisCount = displayWordCount("Main 1");
     const AnalysisCount1 = displayWordCount("Main 2");
     const AnalysisCount2 = displayWordCount("Main 3");
+    const AnalysisCount3 = displayWordCount("Conc");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount + AnalysisCount1 + AnalysisCount2;
+    const totalWordCount = IntroductionCount + AnalysisCount + AnalysisCount1 + AnalysisCount2 + AnalysisCount3;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
